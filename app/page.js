@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
+import TopBar from "./components/TopBar";
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <h1 className="text-4xl font-bold">Olá, Mundo!</h1>
-      <p>Projeto limpo.</p>
-    </main>
-  );
+	return (
+		<main>
+			<TopBar />
+			<h1 className="text-4xl font-bold">Tela de Produtos</h1>
+		</main>
+	);
 }
